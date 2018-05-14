@@ -1,0 +1,7 @@
+{
+    "jscodehints.detectedExclusions": [
+        "C:/Users/Nicolas/Desktop/COURS/projet dev/Projet-Iot-Dev-B2/projetDev/node_modules/ansi-colors/node_modules/lazy-cache/index.js",
+        "C:/Users/Nicolas/Desktop/COURS/projet dev/Projet-Iot-Dev-B2/projetDev/routes/index.js",
+        "C:/Users/Nicolas/Desktop/COURS/projet dev/Projet-Iot-Dev-B2/projetDev/node_modules/ansi-styles/node_modules/color-convert/route.js"
+    ]
+}
