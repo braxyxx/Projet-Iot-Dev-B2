@@ -1,0 +1,39 @@
+<% include partial/header %>
+
+      
+<h1 style="text-align:center">Rapport d'incident</h1>
+  
+<form>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Nom de la station : </label>
+    <select class="form-control" id="nomStation">
+      <option>A1</option>
+      <option>A2</option>
+      <option>A3</option>
+      <option>A4</option>
+      <option>A5</option>
+      <option>B1</option>
+      <option>B2</option>
+      <option>B3</option>
+      <option>B4</option>
+      <option>B5</option>
+    </select>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlSelect1">Type d'incident </label>
+    <select class="form-control" id="typeIncident">
+      <option>Incident</option>
+      <option>Obstacle</option>
+      <option>Objet encombrant</option>
+      <option>Probleme station</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Commentaire</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <button type="button" class="btn btn-primary btn-lg btn-block">Valider le rapport</button>  
+</form>
+<% include partial/footer %>
+
+

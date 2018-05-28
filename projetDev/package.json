@@ -12,12 +12,14 @@
     "debug": "~2.6.9",
     "ejs": "^2.5.8",
     "express": "~4.16.0",
+    "fs": "0.0.1-security",
     "http-errors": "^1.6.3",
     "johnny-five": "^0.14.3",
     "morgan": "~1.9.0",
-    "pug": "2.0.0-beta11"
+    "pug": "2.0.0-beta11",
+    "socket.io": "^2.1.1"
   },
   "devDependencies": {
-    "serialport": "^6.1.1"
+    "serialport": "^6.2.0"
   }
 }

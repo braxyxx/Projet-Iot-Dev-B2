@@ -4,6 +4,12 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+// Necessaire pour arduino 
+var socket = require('socket.io');
+var fs = require('fs');
+var serialport = require('serialport');
+
+
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
