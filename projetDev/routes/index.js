@@ -14,6 +14,10 @@ router.get('/statistique', function(req, res, next) {
   res.render('statistique.ejs');
 });
 
+router.get('/operateur', function(req, res, next) {
+  res.render('operateur.ejs');
+});
+
 
 //var SerialPort = require("serialport");
 

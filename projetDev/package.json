@@ -16,10 +16,15 @@
     "http-errors": "^1.6.3",
     "johnny-five": "^0.14.3",
     "morgan": "~1.9.0",
+<<<<<<< HEAD
     "path": "^0.12.7",
     "pug": "2.0.0-beta11",
     "socket.io": "^2.1.1",
     "url": "^0.11.0"
+=======
+    "pug": "2.0.0-beta11",
+    "socket.io": "^2.1.1"
+>>>>>>> 7a3d42657865276323c51e7844ebf8b20e957458
   },
   "devDependencies": {
     "serialport": "^6.2.0"
