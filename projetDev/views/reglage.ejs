@@ -1,90 +1,85 @@
 <% include partial/header %>
 
-      <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css
-" rel="stylesheet">
-<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js
-"></script>
+<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
 
-    <h1 style="text-align:center">Réglages</h1>
-      
-<div class="input-group mb-3">
-    <div class="input-group-prepend">
-      <label class="input-group-text" for="inputGroupSelect01">Nombre de rames :</label>
-    </div>
-    <select class="custom-select" id="inputGroupSelect01">
-      <option selected>Choix...</option>
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-      <option value="6">6</option>
-      <option value="7">7</option>
-      <option value="8">8</option>
-      <option value="9">9</option>
-      <option value="10">10</option>
-      <option value="11">11</option>
-      <option value="12">12</option>
-      <option value="13">13</option>
-      <option value="14">14</option>
-      <option value="15">15</option>
-      <option value="16">16</option>
-      <option value="17">17</option>
-      <option value="18">18</option>
-      <option value="19">19</option>
-      <option value="20">20</option>
-      <option value="21">21</option>
-      <option value="22">22</option>
-      <option value="23">23</option>
-      <option value="24">24</option>
-      <option value="25">25</option>
-      <option value="26">26</option>
-      <option value="27">27</option>
-      <option value="28">28</option>
-      <option value="29">29</option>
-      <option value="30">30</option>
-    </select>
-  </div>
-<div class="input-group mb-3">
-    <div class="input-group-prepend">
-      <label class="input-group-text" for="inputGroupSelect01">Temps avant la fermeture des portes : </label>
-    </div>
-    <select class="custom-select" id="inputGroupSelect01">
-      <option selected>Choix...</option>
-      <option value="1">One</option>
-      <option value="2">Two</option>
-      <option value="3">Three</option>
-    </select>
-  </div>
-  <div class="input-group mb-3">
-    <div class="input-group-prepend">
-      <label class="input-group-text" for="inputGroupSelect01">Cadences des rames :</label>
-    </div>
-<input type="checkbox" id="toggle-two">
-<script>
-  $(function() {
-    $('#toggle-two').bootstrapToggle({
-      on: 'Heure pleine',
-      off: 'Heure creuse'
-    });
-  })
-</script>
-  </div>
-  <div class="input-group mb-3">
-    <div class="input-group-prepend">
-      <label class="input-group-text" for="inputGroupSelect01">Rame en maintenance :</label>
-    </div>
-    <select class="custom-select" id="inputGroupSelect01">
-      <option selected>Choix...</option>
-      <option value="1">One</option>
-      <option value="2">Two</option>
-      <option value="3">Three</option>
-    </select>
-  </div>
+<h1 style="text-align:center">Réglages</h1>
 
-    <div id="train">
-      
-    </div>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <label class="input-group-text" for="inputGroupSelect01">Nombre de rames :</label>
+  </div>
+  <select class="custom-select" id="inputGroupSelect01">
+    <option selected>Choix...</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+    <option value="13">13</option>
+    <option value="14">14</option>
+    <option value="15">15</option>
+  </select>
+</div>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <label class="input-group-text" for="inputGroupSelect01">Temps avant la fermeture des portes : </label>
+  </div>
+  <select class="custom-select" id="inputGroupSelect01">
+    <option selected>Choix...</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+  </select>
+</div>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <label class="input-group-text" for="inputGroupSelect01">Cadences des rames :</label>
+  </div>
+  <input type="checkbox" id="toggle-two">
+  <script>
+    $(function() {
+      $('#toggle-two').bootstrapToggle({
+        on: 'Heure pleine..',
+        off: '..Heure creuse'
+      });
+    })
+  </script>
+</div>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <label class="input-group-text" for="inputGroupSelect01">Rame en maintenance :</label>
+  </div>
+  <select class="custom-select" id="inputGroupSelect01">
+    <option selected>Choix...</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+    <option value="13">13</option>
+    <option value="14">14</option>
+    <option value="15">15</option>
+  </select>
+</div>
+
+<div id="train">
+  <button type="button" class="btn btn-primary btn-lg btn-block">Valider le rapport</button>  
+</div>
 
 
 <% include partial/footer %>
